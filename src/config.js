@@ -1,33 +1,33 @@
 export default {
   // page1部分
   page1: {
-    titleEn: 'Hello,I`m WeiTingting', //英文标题
-    title: '一个追梦在前端路上的小白', //中文标题
+    titleEn: 'Hello,I`m Born Zhang', //英文标题
+    title: '一个追梦在AI开发路上的小白', //中文标题
   },
   // page2部分
   page2: {
     authorImg: 'page1.jpg', // 作者头像
-    xinhui: '我叫卫婷婷，是一名在读的大三学生。', // 幸会
-    qiuzhi: '前端开发', // 求职意向
-    guanyuwo: '掌握了前端js、html、css基本技术和Vue框架、UI框架，nodejs等等，有着公司项目实战的经验和一些java安卓开发经历。希望可以和大家一起学习，共同进步！' // 关于我
+    xinhui: '我叫张博文，是一名在读的大四学生。', // 幸会
+    qiuzhi: '软件/硬件 开发', // 求职意向
+    guanyuwo: ' 精通 Python，C/C++，善于在工作中提出问题、发现问题、解决问题， 有较强的 分析能力；有多项省校级竞赛项目实战的经验和机器视觉和深度学习开发经历。有一年社会工作经历。希望可以和大家一起学习，共同进步！' // 关于我
   },
   // page3部分
   page3: [{
     icon: 'icon-tubiao-',
-    title: 'UI设计',
-    msg: ['PS切图、界面排版']
+    title: '硬件设计',
+    msg: ['PCB设计，硬件电路开发']
   },{
     icon: 'icon-diannao', // 图标
-    title: '网页制作', // 标题
-    msg: ['响应式页面', 'css、scss动画效果',] //介绍
+    title: '嵌入式开发', // 标题
+    msg: ['C/C++', 'Arduino','物联网',] //介绍
   }, {
     icon: 'icon-qianbi1',
-    title: '前端功能',
-    msg: ['JS完成常见的交互功能', '用AJAX读取后台数据且渲染']
+    title: '动作捕捉',
+    msg: ['基于pytroch框架设计神经网络', '基于双目摄像头进行机器视觉处理']
   },  {
     icon: 'icon-shouji',
-    title: '框架',
-    msg: ['vue框架','UI框架、express框架、mysql',]
+    title: 'LLM大语言模型',
+    msg: ['OpenAI','通义千问、Ollama调教与部署，自给自足，想要啥就练啥',]
   }],
   // page4部分
   page4: {
