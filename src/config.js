@@ -6,7 +6,7 @@ export default {
   },
   // page2部分
   page2: {
-    authorImg: 'page1.jpg', // 作者头像
+    authorImg: 'zbw.jpg', // 作者头像
     xinhui: '我叫张博文，是一名在读的大四学生。', // 幸会
     qiuzhi: '软件/硬件 开发', // 求职意向
     guanyuwo: ' 精通 Python，C/C++，善于在工作中提出问题、发现问题、解决问题， 有较强的 分析能力；有多项省校级竞赛项目实战的经验和机器视觉和深度学习开发经历。有一年社会工作经历。希望可以和大家一起学习，共同进步！' // 关于我
@@ -33,36 +33,36 @@ export default {
   page4: {
     // 我的历程
     course: [{
-      date: '2020/9——至今', // 时间
+      date: '2021/9——2022/9', // 时间
       desc: { // 经历
-        title: '山西传媒学院',
-        list: ['山西省职业技能大赛web前端开发一等奖', '专升本上岸', '软件开发公司实习']
+        title: '温州大学 计算机学院',
+        list: ['2023年校/国家级大创优秀项目', '浙江省青年人才项目', '国家励志奖学金']
       }
     }, {
       date: '2019/9——2020/9',
       desc: {
-        title: '晋城职业技术学院',
-        list: ['学习前端语言', '构建页面 / 利用JS、CSS3等制作网站，vue有关项目', '维护508工作室','获得Web前段开发1+X证书','普通话二级甲等','国家励志奖学金']
+        title: '温州大学 化材学院',
+        list: ['三好学生', '浙江省物理竞赛3等奖', '校级二等奖学金两个','普通话二级乙等','学生思想政治风采大赛二等奖']
       }
     }, {
       date: '2018/9——2019/9',
       desc: {
-        title: '晋城职业技术学院',
-        list: ['学习java语言', '利用Android、sql等制作app', '参加山西省职业院校移动互联技能大赛', '全国计算机等级二级证书', '国家励志奖学金']
+        title: '上海星巴克咖啡经营有限公司',
+        list: ['值班主管',]
       }
     }],
     // 我的拓展技能掌握
     singlelist: [{
-      title: 'bootsrap',
-      text: '了解'
+      title: 'Python',
+      text: '精通'
     }, {
-      title: 'Element-ui',
+      title: 'C/C++',
+      text: '精通'
+    }, {
+      title: '深度学习',
       text: '掌握'
     }, {
-      title: 'mint-ui',
-      text: '掌握'
-    }, {
-      title: 'scss',
+      title: '嵌入式',
       text: '掌握'
     }],
     // 我的基本技能掌握
@@ -85,15 +85,15 @@ export default {
   },
   // page5部分
   page5: [{
-    title: '508工作室',
-    content: '晋城职业技术学院508工作室独立站点的维护',
+    title: '大语言学术润色',
+    content: '调用大预言模型，做你想做的事情。写代码，翻译论文，提炼摘要等。',
     image: 'box1.png',
-    href: 'https://lab508.gitee.io/'
+    href: 'http://121.41.97.246:2024/'
   }, {
-    title: '图书管理系统',
-    content: 'Vue,NodeJs图书管理系统前后端',
+    title: 'ncm转flag格式',
+    content: '利用ncmdump将网易云音乐的下载格式转为无损音质格式',
     image: 'box3.jpg',
-    href: 'https://gitee.com/wttAndroid/book_admin'
+    href: 'http://121.41.97.246:1111/'
   }, {
     title: '校园约吧',
     content: 'Vue,NodeJs移动端校园项目前后端',
@@ -117,11 +117,11 @@ export default {
   }],
   // page6部分
   page6: {
-    github: 'https://github.com/wttAndroid',
+    github: 'https://github.com/MeiYouN',
     bili: '',
-    email: 'Mailto:1457321681@qq.com?Subject=邮箱标题&Body=邮箱内容！',
+    email: 'Mailto:2719141980@qq.com?Subject=邮箱标题&Body=邮箱内容！',
     zhihu: '',
-    weixin: "<img style='width:120px' src='http://wttandroid.gitee.io/wttandroid.github.io/src/img/weix.jpg' alt='加载失败'>",
-    qq: "<img style='width:120px' src='http://wttandroid.gitee.io/wttandroid.github.io/src/img/qq.jpg' alt='加载失败'>"
+    weixin: "<img style='width:120px' src='' alt='加载失败'>",
+    qq: "<img style='width:120px' src='' alt='加载失败'>"
   }
 }
