@@ -67,21 +67,22 @@ export default {
     }],
     // 我的基本技能掌握
     proresslist: [{
-      title: 'HTML、CSS、SCSS',
+      title: 'Python',
       value: '90%'
     }, {
-      title: 'JS、JQ',
+      title: 'C/C++',
       value: '90%'
     }, {
-      title: 'Vue',
-      value: '90%'
-    }, {
-      title: 'NodeJs',
-      value: '80%'
+      title: 'Java',
+      value: '70%'
     }, {
       title: 'sql',
-      value: '80%'
-    }]
+      value: '70%'
+    },{
+      title: 'sql',
+      value: '70%'
+    }
+  ]
   },
   // page5部分
   page5: [{
@@ -95,15 +96,15 @@ export default {
     image: 'box3.jpg',
     href: 'http://121.41.97.246:1111/'
   }, {
-    title: '校园约吧',
-    content: 'Vue,NodeJs移动端校园项目前后端',
+    title: '双目动作捕捉系统',
+    content: '基于双目视觉摄像头的三维姿态估计系统',
     image: 'box5.jpg',
-    href: 'https://gitee.com/wttAndroid/xyy_server'
+    href: 'https://github.com/MeiYouN/BinocularPose.git'
   }, {
-    title: '蘑菇街',
-    content: 'Vue蘑菇街商城案例前端',
+    title: '多摄像头管理工具',
+    content: '基于OpenCV的多摄像头管理工具，便于在项目中便捷的调用多个摄像头',
     image: 'box2.png',
-    href: 'https://github.com/wttAndroid/MyShoppingStreet'
+    href: 'https://github.com/MeiYouN/MultiCamera.git'
   }, {
     title: '个人简历',
     content: 'html,css,jq,bootsrap搭建个人简历网站',
