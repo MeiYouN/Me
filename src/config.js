@@ -73,16 +73,15 @@ export default {
       title: 'C/C++',
       value: '90%'
     }, {
+      title: 'Linux',
+      value: '80%'
+    }, {
       title: 'Java',
       value: '70%'
     }, {
       title: 'sql',
       value: '70%'
-    },{
-      title: 'sql',
-      value: '70%'
-    }
-  ]
+    }]
   },
   // page5部分
   page5: [{
