@@ -11,20 +11,20 @@
   <title>Web前端个人简历</title>
 
   <!-- ---------------CSS引用--------------------- -->
-  <link rel="stylesheet" href="lib/bootstrap.min.css"><!-- bootsarap -->
-  <link rel="stylesheet" href="lib/lizi/style.css"><!-- 粒子样式 -->
-  <link rel="stylesheet" href="src/css/base.min.css"><!--    自己的CSS压缩版-->
+  <link rel="stylesheet" href="./lib/bootstrap.min.css"><!-- bootsarap -->
+  <link rel="stylesheet" href="./lib/lizi/style.css"><!-- 粒子样式 -->
+  <link rel="stylesheet" href="./src/css/base.min.css"><!--    自己的CSS压缩版-->
 </head>
 
 <body>
 
   <!-- ---------------JS--------------------- -->
-  <script src="lib/less.min.js"></script> <!--  less-->
-  <script src="lib/jquery.min.js"></script><!-- jq,bootsrap-->
-  <script src="lib/bootstrap.min.js"></script>
+  <script src="./lib/less.min.js"></script> <!--  less-->
+  <script src="./lib/jquery.min.js"></script><!-- jq,bootsrap-->
+  <script src="./lib/bootstrap.min.js"></script>
 
-  <script src="lib/handlebars.min.js"></script><!-- 模板引擎js -->
-  <script src="lib/lizi/particless.min.js"></script><!-- 粒子js -->
+  <script src="./lib/handlebars.min.js"></script><!-- 模板引擎js -->
+  <script src="./lib/lizi/particless.min.js"></script><!-- 粒子js -->
   <!-- <link rel="import" href="html/main.html" id="boxs" /> -->
 
   <!--主要内容html -->
@@ -35,7 +35,7 @@
     import configData from './src/config.js'; //加载配置文件
     var arrMastering = configData.page4.proresslist;//部分模块数据的动态渲染
 
-    $('#box').load('html/main.html', function () {
+    $('#box').load('./html/main.html', function () {
       //1、渲染模板
       var html = $('#box').html();//获取内容模板
       var template = Handlebars.compile(html); //编译
@@ -44,7 +44,7 @@
 
 
       //2、事件监听
-      particlesJS.load('particles', 'lib/lizi/particles.json', function () { //加载粒子
+      particlesJS.load('particles', './lib/lizi/particles.json', function () { //加载粒子
         console.log('callback - particles.js config loaded');
       });
 
